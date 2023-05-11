@@ -1,0 +1,237 @@
+"Resource/UI/HudPlayerClass.res"
+{
+	// player class data
+	"HudPlayerClass"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudPlayerClass"
+		"xpos"			"790"		//0
+		"ypos"			"47"	//18
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"		
+	}
+	"PlayerStatusClassImage"
+	{
+		"ControlName"	"CTFClassImage"
+		"fieldName"		"PlayerStatusClassImage"
+		"xpos"			"12"
+		"ypos"			"r50"
+		"zpos"			"2"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/class_scoutred"
+		"scaleImage"	"1"	
+        "alpha"         "0"
+	}
+	"PlayerStatusSpyImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerStatusSpyImage"
+		"xpos"			"3"
+		"ypos"			"r67"
+		"zpos"			"2"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/class_spyred"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/class_spyred"
+		"teambg_3"		"../hud/class_spyblue"			
+	}	
+	"PlayerStatusSpyOutlineImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerStatusSpyOutlineImage"
+		"xpos"			"3"	
+		"ypos"			"r67"
+		"zpos"			"7"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/class_spy_outline"
+		"scaleImage"	"1"	
+	}		
+	"PlayerStatusClassImageBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerStatusClassImageBG"
+		"xpos"          "r1114"  
+        "ypos"          "r32"
+        "zpos"          "51"
+        "wide"          "14"
+        "tall"          "14"
+		"visible"		"1"         //triangle overlaps streak count
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/bg_blank"	
+		"teambg_1"			"replay/thumbnails/bg_blank"
+		"teambg_2"      "replay/thumbnails/bg_redtri"
+        "teambg_3"      "replay/thumbnails/bg_bluetri"
+	}
+
+	"classmodelpanelBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"classmodelpanelBG"
+		"xpos"			"-1"	
+		"ypos"			"r40"
+		"zpos"			"1"		
+		"wide"			"52"
+		"tall"			"22"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/bg_black"	
+		"teambg_1"			"replay/thumbnails/bg_black"
+		"teambg_2"			"../hud/tournament_panel_red"
+		"teambg_3"			"../hud/tournament_panel_blu"
+		
+        "src_corner_height"		"23"				
+		"src_corner_width"		"23"			
+		"draw_corner_width"		"5"				
+		"draw_corner_height"    "5"
+	}
+
+	"classmodelpanel"
+	{
+		"ControlName"	"CTFPlayerModelPanel"
+		"fieldName"		"classmodelpanel"
+		
+		"xpos"			"0"
+		"ypos"			"r120"
+		"zpos"			"2"		
+		"wide"			"52"
+		"tall"			"102"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"render_texture"	"0"
+		"fov"			"28"
+		"allow_rot"		"1"
+				
+		"model"
+		{
+			"force_pos"	"1"
+
+			"angles_x" "0"
+			"angles_y" "270"
+			"angles_z" "0"
+			"origin_x" "200"
+			"origin_y" "28"
+			"origin_z" "-60"
+			"frame_origin_x"	"0"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"0"
+			"spotlight" "1"
+		
+			"modelname"		""
+		}
+
+		"customclassdata"
+		{
+			"undefined"
+			{
+
+			}
+			"Scout"
+			{
+				"fov"			"17"
+				"angles_x"		"-17"
+				"angles_y"		"150"
+				"angles_z"		"-5"
+				"origin_x"		"126"
+				"origin_y"		"7"
+				"origin_z"		"-77"
+			}
+			"Sniper"
+			{
+				"fov"			"20"
+				"angles_x"		"-10"
+				"angles_y"		"150"
+				"angles_z"		"0"
+				"origin_x"		"130"
+				"origin_y"		"-3"
+				"origin_z"		"-97"
+			}
+			"Soldier"
+			{
+				"fov"			"20"
+				"angles_x"		"-10"
+				"angles_y"		"150"
+				"angles_z"		"0"
+				"origin_x"		"130"
+				"origin_y"		"-5"
+				"origin_z"		"-90"
+			}
+			"Demoman"
+			{
+				"fov"			"20"
+				"angles_x"		"-13"
+				"angles_y"		"150"
+				"angles_z"		"0"
+				"origin_x"		"130"
+				"origin_y"		"-4"
+				"origin_z"		"-93"
+			}
+			"Medic"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"158"
+				"angles_z"		"0"
+				"origin_x"		"130"
+				"origin_y"		"-5"
+				"origin_z"		"-96"
+			}
+			"Heavy"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"150"
+				"angles_z"		"0"
+				"origin_x"		"140"
+				"origin_y"		"-7"
+				"origin_z"		"-102"
+			}
+			"Pyro"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"150"
+				"angles_z"		"0"
+				"origin_x"		"130"
+				"origin_y"		"-5"
+				"origin_z"		"-80"
+			}
+			"Spy"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"150"
+				"angles_z"		"0"
+				"origin_x"		"130"
+				"origin_y"		"-5"
+				"origin_z"		"-80"
+			}
+			"Engineer"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"150"
+				"angles_z"		"0"
+				"origin_x"		"130"
+				"origin_y"		"-5"
+				"origin_z"		"-80"
+			}
+		}
+	}
+}
