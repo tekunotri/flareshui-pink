@@ -1020,7 +1020,7 @@
 		"font"			"CodePro16"
 		"labelText"		"%playername%"
 		"textAlignment"		"Center"
-		"xpos"			"302"
+		"xpos"			"cs-0.5"
 		"ypos"			"346"	[$WIN32]
 		"zpos"			"3"
 		"wide"			"250"	[$WIN32]
@@ -1039,7 +1039,7 @@
 		"ControlName"		"Panel"
 		"fieldName"		"PlayerNameBG"
 		"textAlignment"		"Center"
-		"xpos"			"357"
+		"xpos"			"cs-0.5"
 		"ypos"			"346"	[$WIN32]
 		"zpos"			"3"
 		"wide"			"140"	[$WIN32]
@@ -1541,7 +1541,7 @@
 			"labelText"		"Backstabs"
 			"fgcolor"		"White"
 			"textAlignment"		"east"
-			"xpos"			"c-105"
+			"xpos"			"c-100"
 			"ypos"			"r15"
 			"zpos"			"3"
 			"wide"			"80"
