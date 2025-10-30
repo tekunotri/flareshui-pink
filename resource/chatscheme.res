@@ -172,7 +172,7 @@ Scheme
 
 	Fonts
 	{
-
+		"isproportional" "only"
 		"Default"
 		{
 			"1"
@@ -216,10 +216,9 @@ Scheme
 			"5"
 			{
 				"name"			"Verdana"
-				"tall"			"20"
+				"tall"			"8"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
 				"antialias"		"1"
 			}
 		}
@@ -358,8 +357,8 @@ Scheme
 			"5"
 			{
 				"name"			"Code-Pro-LC"
-				"tall"			"24"
-				"yres"			"1200 10000"
+				"tall"			"8"
+				"weight"		"300"
 				"dropshadow"	"1"
 				"antialias"		"1"
 			}

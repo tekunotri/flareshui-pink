@@ -13,6 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"medal_column_width" "0"
 		"medal_width"		"0"
 		"avatar_width"		"27"	[$WIN32]
 		"spacer"			"2"

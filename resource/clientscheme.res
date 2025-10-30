@@ -4081,9 +4081,59 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
 
@@ -4092,7 +4142,8 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"9"
+				"tall"		"12"
+				"weight"	"500"
 				"underline" "1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias" 	"1"
@@ -4100,9 +4151,10 @@ Scheme
 			"2"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"9"
+				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
+				"weight"		"800"
 			}
 		}
 		"DefaultSmall"
@@ -4142,9 +4194,8 @@ Scheme
 			"5"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"20"
+				"tall"		"9"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -4162,44 +4213,46 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"1"
-				"yres"		"480 599"
-				"antialias" 	"0"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
 			}
 			"2"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"2"
-				"yres"	"600 719"
-				"antialias" 	"1"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
 			}
 			"3"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"5"
-				"yres"	"720 767"
-				"antialias" 	"1"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"6"
-				"yres"	"768 899"
-				"antialias" 	"1"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"9"
-				"yres"	"900 1023"
-				"antialias" 	"1"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
-			"6"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"6"
-				"antialias" 	"1"
-			}
+
 		}
 		DefaultLarge
 		{
@@ -4207,22 +4260,23 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"18"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
-				"antialias" 	"1"
 			}
 			"2"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"20"
+				"tall"		"21"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
-				"antialias" 	"1"
 			}
 			"3"
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"22"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
 				"antialias"	"1"
@@ -4231,31 +4285,32 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"28"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"28"
+				"tall"		"18"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias" 	"1"
+				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
-				"antialias" 	"1"
+				"weight"		"900"
 			}
 			"7"
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
-				"antialias" 	"1"
+				"weight"		"800"
 			}
 		}
 		CenterPrintText
@@ -4289,37 +4344,37 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"12"
+				"weight"	"700"
 				"yres"	"480 599"
-				"antialias" 	"1"
 			}
 			"2"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"12"	[$WIN32]
-				"tall"		"20"	[$X360]
+				"tall"		"13"	[$WIN32]
+				"tall"		"23"	[$X360]
+				"weight"	"700"
 				"yres"	"600 767"
-				"antialias" 	"1"
 			}
 			"3"
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"14"
+				"weight"	"700"
 				"yres"	"768 1023"
-				"antialias" 	"1"
 			}
 			"4"
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"20"
+				"weight"	"700"
 				"yres"	"1024 1199"
-				"antialias" 	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"22"
-				"yres"	"1200 10000"
-				"antialias" 	"1"
+				"tall"		"12"
+				"weight"	"700"
+				"antialias"	"1"
 			}
 		}
 
@@ -4328,35 +4383,46 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"22"
+				"tall"		"24"
+				"tall_lodef"	"80"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+				"yres"		"480 599"
 			}
 			"2"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"30"
+				"tall"		"32"
+				"tall_hidef"	"120"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+				"yres"		"600 767"
 			}
 			"3"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"40"
+				"tall"		"44"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+				"yres"		"768 1023"
 			}
 			"4"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"44"
+				"tall"		"48"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+				"yres"		"1024 1199"
 			}
 			"5"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"48"
+				"tall"		"24"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -4428,7 +4494,17 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"22"
+				"tall"		"24"
+				"weight"	"500"
+				"yres"		"1 1199"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			"2" // Misyl: Proportional
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"10"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
