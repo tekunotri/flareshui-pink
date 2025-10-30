@@ -63,7 +63,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"0 0 0 150"
-		"PaintBackgroundType""		2"
+		"PaintBackgroundType"	"2"
 	}
 
 	"DisguiseNamesBG"
@@ -124,7 +124,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponNameLabelShadow"
-		"font"			"Product9"
+		"font"			"CodePro9"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -144,7 +144,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"22"
-		"ypos"			"423"
+		"ypos"			"425"
 		"wide"			"42"
 		"tall"			"29"
 		"visible"			"1"
@@ -164,7 +164,7 @@
 		"ypos"			"436"
 	    "zpos"          "-2"
 		"wide"          "38"
-		"tall"          "16"
+		"tall"          "18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"fillcolor"		"44 44 44 150"
@@ -183,7 +183,7 @@
 				"tall"			"14"
 				"visible"		"0"
 				"bgcolor_override"		"44 44 44 150"
-				"PaintBackgroundType"	"7"
+				"PaintBackgroundType"	"2"
 			}
 	
 }

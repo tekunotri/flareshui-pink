@@ -313,30 +313,14 @@
 		"visible"		"0"
 	}
 
-	"NumberBg1"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"NumberBg"
-		"xpos"			"130"
-		"ypos"			"104"
-		"zpos"			"4"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
-		"iconColor"		"Product16"
-	}
-
 	"NumberLabel1"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Product16"
+		"font"			"CodePro16"
 		"fgcolor"		"BrightGray"
 		"xpos"			"c-140"
-		"ypos"			"c20"
+		"ypos"			"c"
 		"zpos"			"6"
 		"wide"			"40"
 		"tall"			"20"
@@ -350,27 +334,11 @@
 		"brighttext"	"0"
 	}
 
-	"NumberBg2"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"NumberBg"
-		"xpos"			"226"
-		"ypos"			"104"
-		"zpos"			"4"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
-		"iconColor"		"Product16"
-	}
-	
 	"NumberLabel2"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Product16"
+		"font"			"CodePro16"
 		"fgcolor"		"BrightGray"
 		"xpos"			"c-20"
 		"ypos"			"c20"
@@ -386,28 +354,11 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
-	"NumberBg3"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"NumberBg"
-		"xpos"			"322"
-		"ypos"			"104"
-		"zpos"			"4"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
-		"iconColor"		"Product16"
-	}
-	
 	"NumberLabel3"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Product16"
+		"font"			"CodePro16"
 		"fgcolor"		"BrightGray"
 		"xpos"			"c100"
 		"ypos"			"c20"

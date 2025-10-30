@@ -3,7 +3,7 @@
 	"HudTeamScore"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"HudPasstimeTeamScore"
+		"fieldName"		"HudTeamScore"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -18,7 +18,6 @@
 		"ControlName"	"Panel"
 		"fieldName"		"BlueBG"
 		"xpos"			"c-32" 	//c-114
-		"ypos"			"-5"	//r78
 		"ypos"			"0"
         "zpos"          "-4"
 		"wide"			"16" //110
@@ -179,10 +178,7 @@
 			"bgcolor_override"	"HudBlack"
 			"proportionaltoparent"	"1"
 		}
-	}
-}
-	
-	
+			
 	"LeftSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -211,3 +207,7 @@
 		"enabled"		"0"
 	}
 }
+
+}
+	
+

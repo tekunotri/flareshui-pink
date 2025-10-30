@@ -6,7 +6,7 @@
 		"fieldName"		"ModelContainer"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-		"zpos"			"3"		
+		"zpos"			"3"	
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
@@ -103,7 +103,7 @@
 				"default"
 				{
 					"name"			"directional"
-					"color"			"0.5 0.5 0.5"
+					"color"			"128 128 128 255"
 					"direction"		"0.60 0.65 0.2"
 				}
 			}
@@ -185,10 +185,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"rs1"
+		"xpos"			"50"
 		"ypos"			"20"
 		"zpos"			"-1"
-		"wide"			"340"
+		"wide"			"480"
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"

@@ -16,7 +16,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"zpos"          "99999"
-		"xpos"		"c-35"
+		"xpos"		"cs-0.5"
 		"ypos"		"50"
 		"wide"			"400"	
 		"tall"			"21"
@@ -34,7 +34,7 @@
 		"bgcolor_override"	"0 0 0 175"
 		"paintbackgroundtype"	"0"
 		
-		"auto_wide_tocontents"	"2"
+		"auto_wide_tocontents"	"1"
 		"textinsetx"			"3"
 		"use_proportional_insets"	"1"
 		
@@ -58,7 +58,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
-		"font"			"Light12"
+		"font"			"CodePro12"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -66,7 +66,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"Light12"
+		"font"			"CodePro12"
 		"xpos"			"0"	
 		"ypos"			"0"	
 		"wide"			"0"	
@@ -148,7 +148,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"	
 		"enabled"		"0"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
+		"labelText"		"#TF_Spectator_CycleTargetFwdKey"
 		"textAlignment"		"east"
 		"font"			"SpectatorKeyHints"
 	}
@@ -180,7 +180,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"	
 		"enabled"		"0"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
+		"labelText"		"#TF_Spectator_CycleTargetRevKey"
 		"textAlignment"		"east"
 		"font"			"SpectatorKeyHints"
 	}
@@ -233,7 +233,7 @@
 	"topbar"
 	{
 		"ControlName"		"Panel"
-		"fieldName"		"TopBar"
+		"fieldName"		"topbar"
 		"xpos"			"0"
 		"ypos"			"0"
 		"tall"			"0"	
@@ -313,7 +313,7 @@
 		{	
 			"ControlName"							"Label"
 			"fieldName"								"ItemLabel"
-			"font"									"Size 10"
+			"font"									"CodePro10"
 			"xpos"									"5"
 			"ypos"									"3"
 			"zpos"									"1"

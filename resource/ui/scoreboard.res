@@ -3,7 +3,7 @@
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
-		"fieldName"		"scoreinfo"
+		"fieldName"		"scores"
 		"xpos"			"c0"
 		"ypos"			"c0"
 		"wide"			"f0"
@@ -13,18 +13,18 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"medal_column_width" "0"
 		"medal_width"		"0"
-		"avatar_width"		"27"	[$WIN32]
-		"spacer"			"2"
-		"name_width"		"45"	[$WIN32]
-		"nemesis_width"		"15"	[$WIN32]
-		"class_width"		"15"	[$WIN32]
-		"score_width"		"0"
-		"ping_width"		"15"	[$WIN32]
-		"killstreak_width"	"2"
+		"medal_column_width" "0"
+		"avatar_width"		"28"
+		"spacer"			"5"
+		"name_width"		"118"
+		"nemesis_width"		"15"
+		"class_width"		"15"
+		"score_width"		"25"
+		"ping_width"		"18"
+		"killstreak_width"	"18"
 		"killstreak_image_width" "15"
-	}
+		}
 	
 	"BlueScoreBG"
 	{
@@ -225,7 +225,7 @@
 		"ypos"			"c-85"
 		"zpos"			"20"
 		"wide"			"225"
-		"tall"			"245"	[$WIN32]
+		"tall"			"180"	[$WIN32]
 		
 		
 		"tall_minmode"			"100"
@@ -252,7 +252,7 @@
 		"ypos"			"c-85"
 		"zpos"			"20"
 		"wide"			"225"
-		"tall"			"245"	[$WIN32]	
+		"tall"			"180"	[$WIN32]	
 		
 		"tall_minmode"			"100"
 		
@@ -294,7 +294,6 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedTeamImage"
-		"fieldName"		"BlueTeamImage"
 		"xpos"			"c50"
 		"ypos"			"c-235"
 		"zpos"			"2"
@@ -647,22 +646,22 @@
 		}
 	}
 	
-		"MapTimeLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MapTimeLabel"
-			"font"			"CodePro16"
-			"labelText"		"Map Time Left:"
-			"fgcolor"		"255 255 255 255"
-			"textAlignment"		"west"
-			"xpos"			"c-45"
-			"ypos"			"82"
-			"zpos"			"10"
-			"wide"			"162"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-		}
+	"MapTimeLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapTimeLabel"
+		"font"			"CodePro16"
+		"labelText"		"Map Time Left:"
+		"fgcolor"		"255 255 255 255"
+		"textAlignment"		"west"
+		"xpos"			"c-45"
+		"ypos"			"82"
+		"zpos"			"10"
+		"wide"			"162"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+	}
 	
 	"ServerTimeLeftLabelBG"
 	{
@@ -745,7 +744,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"$"
+		"font"			"CodePro8"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"c-225"
@@ -806,20 +805,19 @@
 	"SpecBG"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"StatBG"
+		"fieldName"		"SpecBG"
 		"xpos"			"c-255"
 		"ypos"			"c105"
-		"ypos_minmode"	"c-40"
 		"zpos"			"0"
 		"wide"			"510"
 		"tall"			"10"
-		
+
 		"xpos_minmode"			"c-265"
 		"ypos_minmode"			"c85"
 		"wide_minmode"			"255"
 		"tall_minmode"			"20"
 		"visible_minmode"		"0"
-		
+
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -836,7 +834,7 @@
 	"StatsBG"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"StatBG"
+		"fieldName"		"StatsBG"
 
 		
 		"xpos"			"c-215"
@@ -1019,10 +1017,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"CodePro18"
+		"font"			"CodePro16"
 		"labelText"		"%playername%"
 		"textAlignment"		"Center"
-		"xpos"			"305"
+		"xpos"			"302"
 		"ypos"			"346"	[$WIN32]
 		"zpos"			"3"
 		"wide"			"250"	[$WIN32]
@@ -1058,7 +1056,7 @@
 	"MapName"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"mapname"
+		"fieldName"		"MapName"
 		"font"			"CodePro20"
 		"labelText"		"%mapname%"
 		"textAlignment"		"Center"
@@ -1121,7 +1119,6 @@
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"c-150"
 		"ypos"			"c115"
-		"ypos_minmode"		"c-20"
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"53"
@@ -1336,13 +1333,13 @@
 	"PlayerstatsBG"
 	{
 		"ControlName"		"Panel"
-		"fieldName"		"MainBGRed"
+		"fieldName"		"PlayerstatsBG"
 		
 		"xpos"			"c-70"
 		"ypos"			"r114"
 		"zpos"			"0"
 		"wide"			"140"
-		"tall"			"73"
+		"tall"			"100"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1371,7 +1368,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"0"
 	
 	
 		"Kills2"
@@ -1380,7 +1376,7 @@
 			"fieldName"		"Kills2"
 			"font"			"CodePro20shadow"
 			"labelText"		"%kills%"
-			"textAlignment"	"east"
+			"textAlignment"	"center"
 			"xpos"			"c-68"
 			"ypos"			"r59"
 			"zpos"			"3"
@@ -1395,11 +1391,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"CodePro9"
+			"font"			"CodePro10"
 			"labelText"		"Kills"
 			"fgcolor"		"White"
-			"textAlignment"	"west"
-			"xpos"			"c-32"
+			"textAlignment"	"center"
+			"xpos"			"c-125"
 			"ypos"			"r46"
 			"wide"			"163"
 			"tall"			"26"
@@ -1411,11 +1407,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DeathsLabel"
-			"font"			"CodePro9"
+			"font"			"CodePro10"
 			"labelText"		"Deaths"
 			"fgcolor"		"White"
 			"textAlignment"	"west"
-			"xpos"			"c18"
+			"xpos"			"c32"
 			"ypos"			"r46"
 			"wide"			"163"
 			"tall"			"26"
@@ -1429,8 +1425,8 @@
 			"fieldName"		"Deaths2"
 			"font"			"CodePro20shadow"
 			"labelText"		"%deaths%"
-			"textAlignment"	"west"
-			"xpos"			"c24"
+			"textAlignment"	"center"
+			"xpos"			"c-10"
 			"ypos"			"r59"
 			"zpos"			"3"
 			"wide"			"115"
@@ -1444,11 +1440,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"CodePro9"
+			"font"			"CodePro10"
 			"labelText"		"Assists"
 			"fgcolor"		"White"
 			"textAlignment"	"west"
-			"xpos"			"c-11"
+			"xpos"			"c-13"
 			"ypos"			"r46"
 			"wide"			"163"
 			"tall"			"26"
@@ -1476,11 +1472,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"CodePro9"
+			"font"			"CodePro10"
 			"labelText"		"Ubers"
 			"fgcolor"		"White"
 			"textAlignment"		"west"
-			"xpos"			"c39"
+			"xpos"			"c36"
 			"ypos"			"r22"
 			"zpos"			"3"
 			"wide"			"163"
@@ -1512,9 +1508,9 @@
 			"font"			"CodePro10"
 			"labelText"		"Headshots"
 			"fgcolor"		"White"
-			"textAlignment"		"west"
-			"xpos"			"c60"
-			"ypos"			"r0"
+			"textAlignment"		"center"
+			"xpos"			"c-40"
+			"ypos"			"r-34"
 			"zpos"			"3"
 			"wide"			"80"
 			"tall"			"11"
@@ -1528,9 +1524,9 @@
 			"font"			"CodePro16shadow"
 			"labelText"		"%headshots%"
 			"fgcolor"		"255 225 64 255"
-			"textAlignment"	"west"
-			"xpos"			"c80"
-			"ypos"			"r12"
+			"textAlignment"	"center"
+			"xpos"			"c-80"
+			"ypos"			"r-22"
 			"zpos"			"3"
 			"wide"			"163"
 			"tall"			"13"
@@ -1545,8 +1541,8 @@
 			"labelText"		"Backstabs"
 			"fgcolor"		"White"
 			"textAlignment"		"east"
-			"xpos"			"c-86"
-			"ypos"			"r0"
+			"xpos"			"c-105"
+			"ypos"			"r15"
 			"zpos"			"3"
 			"wide"			"80"
 			"tall"			"11"
@@ -1560,9 +1556,9 @@
 			"font"			"CodePro16shadow"
 			"labelText"		"%backstabs%"
 			"fgcolor"		"255 225 64 255"
-			"textAlignment"	"west"
-			"xpos"			"c-25"
-			"ypos"			"r12"
+			"textAlignment"	"center"
+			"xpos"			"c-125"
+			"ypos"			"r26"
 			"zpos"			"3"
 			"wide"			"163"
 			"tall"			"13"
@@ -1577,8 +1573,8 @@
 			"font"			"CodePro10"
 			"labelText"		"Caps"
 			"fgcolor"		"White"
-			"textAlignment"		"east"
-			"xpos"			"c-125"
+			"textAlignment"	"east"
+			"xpos"			"c-115"
 			"ypos"			"r-10"
 			"zpos"			"3"
 			"wide"			"80"
@@ -1594,8 +1590,8 @@
 			"labelText"		"%captures%"
 			"fgcolor"		"187 163 255 255"
 			"textAlignment"	"west"
-			"xpos"			"c-43"
-			"ypos"			"r-10"
+			"xpos"			"c-49"
+			"ypos"			"r1"
 			"zpos"			"3"
 			"wide"			"163"
 			"tall"			"11"
@@ -1609,8 +1605,8 @@
 			"font"			"CodePro10"
 			"labelText"		"Blocks"
 			"fgcolor"		"White"
-			"textAlignment"		"east"
-			"xpos"			"c-75"
+			"textAlignment"		"center"
+			"xpos"			"c-40"
 			"ypos"			"r-10"
 			"zpos"			"3"
 			"wide"			"80"
@@ -1625,9 +1621,9 @@
 			"font"			"CodePro16Shadow"
 			"labelText"		"%defenses%"
 			"fgcolor"		"187 163 255 255"
-			"textAlignment"	"west"
-			"xpos"			"c11"
-			"ypos"			"r-10"
+			"textAlignment"	"center"
+			"xpos"			"c-80"
+			"ypos"			"r1"
 			"zpos"			"3"
 			"wide"			"163"
 			"tall"			"11"
@@ -1644,7 +1640,7 @@
 			"fgcolor"		"White"
 			"textAlignment"		"west"
 			"xpos"			"c35"
-			"ypos"			"r-5"
+			"ypos"			"r-10"
 			"zpos"			"3"
 			"wide"			"80"
 			"tall"			"11"
@@ -1657,10 +1653,10 @@
 			"fieldName"		"Healing2"
 			"font"			"CodePro16Shadow"
 			"labelText"		"%healing%"
-			"fgcolor"		"187 163 255 255"
+			"fgcolor"		"163 255 194 255"
 			"textAlignment"	"west"
 			"xpos"			"c45"
-			"ypos"			"r5"
+			"ypos"			"r1"
 			"zpos"			"3"
 			"wide"			"163"
 			"tall"			"11"
@@ -1672,7 +1668,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabelt"
-			"font"			"CodePro9"
+			"font"			"CodePro10"
 			"labelText"		"Damage"
 			"fgcolor"		"White"
 			"textAlignment"		"west"
@@ -1913,8 +1909,9 @@
 			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"0"
-		    "LocalPlayerStatsPanel"
 		}
+	}
+
 
 	"MvMScoreboard"
 	{
