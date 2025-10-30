@@ -1,1 +1,0 @@
-#Base "../../Customizations/SpectatorTournament.res"
