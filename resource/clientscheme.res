@@ -870,7 +870,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"CodeProSimple Regular"
+				"name"		"CodeProSimple"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -915,7 +915,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"CodeProSimple Regular"
+				"name"		"CodeProSimple"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -926,7 +926,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"CodeProSimple Regular"
+				"name"		"CodeProSimple"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -1156,7 +1156,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"CodeProSimple Regular"
+				"name"		"CodeProSimple"
 				"tall"		"25"
 				"additive"	"0"
 				"antialias" "1"
@@ -1167,7 +1167,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"CodeProSimple Regular"
+				"name"		"CodeProSimple"
 				"tall"		"25"
 				"additive"	"0"
 				"antialias" "1"
@@ -1179,7 +1179,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"CodeProSimple Regular"
+				"name"		"CodeProSimple"
 				"tall"		"25"
 				"additive"	"0"
 				"antialias" "1"
@@ -9179,7 +9179,7 @@ Scheme
 		"23"
 		{
 			"font" "resource/fonts/codeprosimple.otf"
-			"name" "CodeProSimple Regular"
+			"name" "CodeProSimple"
 		}
 	}
 }

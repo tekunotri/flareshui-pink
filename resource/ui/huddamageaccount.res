@@ -37,8 +37,8 @@
 	{
 		"ControlName"	 	"CExLabel"
 		"fieldname"	 		"DamageAccountValueShadow"
-		"xpos"			    "c-152"			
-		"ypos"			    "332"	
+		"xpos"			    "-1"			
+		"ypos"			    "0"	
 		"zpos"			    "2"
 		"wide"			    "80"
 		"tall"			    "19"
@@ -49,5 +49,8 @@
 		"textAlignment"	 	"east"
 		"fgcolor"	 		"0 0 0 150"
 		"font"	 			"CodePro20"			
+		"pin_to_sibling"			"DamageAccountValue"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 }
