@@ -1891,7 +1891,7 @@
 				"tall"			"24"
 				"visible"		"0"
 				"enabled"		"0"
-				"image"         "../vgui/replay/thumbnails/frog"
+				"image"         "replay/thumbnails/frog"
 				"scaleImage"	"1"
 			}
 		}
@@ -2288,7 +2288,7 @@
 				"tall"			"24"
 				"visible"		"0"
 				"enabled"		"0"
-				"image"         "../vgui/replay/thumbnails/frog"
+				"image"         "replay/thumbnails/frog"
 				"scaleImage"	"1"
 			}
 		}

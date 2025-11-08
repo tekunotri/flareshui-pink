@@ -220,7 +220,7 @@
 			"wide"								"3"
 			"tall"								"2"
 			"zpos"								"98"
-			"image"								"../vgui/replay/thumbnails/panels/Material_Transparent_black_70"
+			"image"								"replay/thumbnails/panels/Material_Transparent_black_70"
 			"scaleimage"						"1"
 		}
 		
@@ -230,7 +230,7 @@
 			"wide"								"3"
 			"tall"								"2"
 			"zpos"								"99"
-			"image"								"../vgui/replay/thumbnails/panels/Panel_Red"
+			"image"								"replay/thumbnails/panels/Panel_Red"
 			"scaleimage"						"1"
 		}
 
@@ -240,7 +240,7 @@
 			"wide"								"3"
 			"tall"								"2"
 			"zpos"								"99"
-			"image"								"../vgui/replay/thumbnails/panels/Panel_Blue"
+			"image"								"replay/thumbnails/panels/Panel_Blue"
 			"scaleimage"						"1"
 		}
 		
